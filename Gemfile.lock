@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    embulk-filter-detected_double_release_error (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    embulk (0.8.11-java)
+      bundler (>= 1.10.6)
+      liquid (~> 3.0.6)
+      msgpack (~> 0.7.3)
+      rjack-icu (~> 4.54.1.1)
+    liquid (3.0.6)
+    msgpack (0.7.6-java)
+    rake (11.2.2)
+    rjack-icu (4.54.1.1-java)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  bundler (>= 1.10.6)
+  embulk (>= 0.8.9)
+  embulk-filter-detected_double_release_error!
+  rake (>= 10.0)
+
+BUNDLED WITH
+   1.10.6
